@@ -6,8 +6,8 @@
   "name":"obj_SIRR",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"SIRR",
+    "path":"folders/Objects/SIRR.yy",
   },
   "parentObjectId":null,
   "persistent":false,

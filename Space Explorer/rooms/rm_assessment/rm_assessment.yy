@@ -6,14 +6,12 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_3A87C563_1_1_2","path":"rooms/rm_assessment/rm_assessment.yy",},
     {"name":"inst_7F70634D_1_1_2","path":"rooms/rm_assessment/rm_assessment.yy",},
     {"name":"inst_5F75F882_1_1_2","path":"rooms/rm_assessment/rm_assessment.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_3A87C563_1_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A87C563_1_1_2","objectId":{"name":"obj_SIRR","path":"objects/obj_SIRR/obj_SIRR.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.7557252,"scaleY":0.827957,"x":1024.0,"y":96.0,},
         {"$GMRInstance":"v2","%Name":"inst_7F70634D_1_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F70634D_1_1_2","objectId":{"name":"obj_change_room_left","path":"objects/obj_change_room_left/obj_change_room_left.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.13513514,"scaleY":0.1091314,"x":32.0,"y":288.0,},
         {"$GMRInstance":"v2","%Name":"inst_5F75F882_1_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F75F882_1_1_2","objectId":{"name":"obj_change_room_right","path":"objects/obj_change_room_right/obj_change_room_right.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.13513514,"scaleY":0.109131396,"x":1280.0,"y":288.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

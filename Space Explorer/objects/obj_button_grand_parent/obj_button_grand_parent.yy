@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_parent",
+  "%Name":"obj_button_grand_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_parent",
+  "name":"obj_button_grand_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"buttons",

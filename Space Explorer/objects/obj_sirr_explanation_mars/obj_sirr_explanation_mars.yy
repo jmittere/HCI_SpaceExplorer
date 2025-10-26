@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tap_button_parent",
+  "%Name":"obj_sirr_explanation_mars",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tap_button_parent",
+  "name":"obj_sirr_explanation_mars",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"SIRR",
+    "path":"folders/Objects/SIRR.yy",
   },
-  "parentObjectId":{
-    "name":"obj_button_grand_parent",
-    "path":"objects/obj_button_grand_parent/obj_button_grand_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -6,8 +6,8 @@
   "name":"obj_mars",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"celestialObjects",
+    "path":"folders/Objects/celestialObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
