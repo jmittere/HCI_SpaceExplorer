@@ -1,0 +1,1 @@
+global.game.location = "Venus";
