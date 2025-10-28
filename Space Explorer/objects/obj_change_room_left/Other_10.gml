@@ -1,7 +1,7 @@
 ///@description Interact - change room left
 
 // Check if a prev room exists before attempting to go to it
-    if (room_exists(room_previous(room)))
+    if (room_exists(room_previous(room)) and room_previous(room) != rm_profile)
     {
         room_goto_previous();
     }

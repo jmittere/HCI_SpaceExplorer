@@ -1,1 +1,1 @@
-global.game.location = "Saturn";
+global.game.location = "Uranus";
