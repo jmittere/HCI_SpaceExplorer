@@ -4,7 +4,7 @@ var gui_h = display_get_gui_height();
 
 // Define box dimensions
 var box_w = gui_w * 0.20;
-var box_h = gui_h * 0.10;
+var box_h = gui_h * 0.150;
 
 // Top-right corner position
 var box_x = gui_w - box_w - 210; // 100px padding from right edge
@@ -19,6 +19,6 @@ draw_rectangle(box_x, box_y, box_x + box_w, box_y + box_h, false);
 draw_set_alpha(1);
 draw_set_color(c_white);
 draw_set_font(DisplayFont);
-var welcome_msg = "Welcome to Mars! Humans have sent rovers to this planet to explore the surface.";
+var welcome_msg = "Welcome to Jupiter. This is the biggest planet in our system. You can even see it without a telescope sometimes!";
 
 draw_text_ext(box_x + 20, box_y + 20, welcome_msg, -1, box_w - 15);

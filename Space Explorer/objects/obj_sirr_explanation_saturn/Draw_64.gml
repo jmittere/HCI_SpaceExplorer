@@ -19,6 +19,6 @@ draw_rectangle(box_x, box_y, box_x + box_w, box_y + box_h, false);
 draw_set_alpha(1);
 draw_set_color(c_white);
 draw_set_font(DisplayFont);
-var welcome_msg = "Welcome to Mars! Humans have sent rovers to this planet to explore the surface.";
+var welcome_msg = "Welcome to Saturn. This is a huge planet with large rings!";
 
 draw_text_ext(box_x + 20, box_y + 20, welcome_msg, -1, box_w - 15);

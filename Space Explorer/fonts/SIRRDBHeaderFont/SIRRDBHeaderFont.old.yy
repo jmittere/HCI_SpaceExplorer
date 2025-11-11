@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"NavigationFont",
+  "%Name":"SIRRDBHeaderFont",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":17,
@@ -206,10 +206,10 @@
   "last":0,
   "lineHeight":21,
   "maintainGms1Font":false,
-  "name":"NavigationFont",
+  "name":"SIRRDBHeaderFont",
   "parent":{
-    "name":"Notes",
-    "path":"folders/Notes.yy",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[
