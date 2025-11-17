@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Space Explorer",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"Space Explorer",
   "resources":[
@@ -91,6 +91,7 @@
     {"id":{"name":"spr_change_room_left","path":"sprites/spr_change_room_left/spr_change_room_left.yy",},},
     {"id":{"name":"spr_change_room_right","path":"sprites/spr_change_room_right/spr_change_room_right.yy",},},
     {"id":{"name":"spr_earth","path":"sprites/spr_earth/spr_earth.yy",},},
+    {"id":{"name":"spr_earth2","path":"sprites/spr_earth2/spr_earth2.yy",},},
     {"id":{"name":"spr_jupiter","path":"sprites/spr_jupiter/spr_jupiter.yy",},},
     {"id":{"name":"spr_mars","path":"sprites/spr_mars/spr_mars.yy",},},
     {"id":{"name":"spr_mercury","path":"sprites/spr_mercury/spr_mercury.yy",},},

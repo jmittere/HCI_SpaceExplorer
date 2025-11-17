@@ -15,7 +15,6 @@ global.visited = {
 	Mercury: false,
 	Venus: false,
 	Earth: true, 
-	Moon: false,
 	Mars: false,
 	Jupiter: false,
 	Saturn: false,
@@ -44,11 +43,6 @@ global.planet_info = {
         moons: 1,
         surface: "Oceans, land"
     },
-    Moon: {
-        has_rings: false,
-        moons: 0,
-        surface: "Dry, dusty, rocky"
-    },
     Mars: {
         has_rings: false,
         moons: 2,
@@ -74,4 +68,16 @@ global.planet_info = {
         moons: 14,
         surface: "Ice giant"
     }
+};
+
+global.planet_sprites = {
+    Sun: spr_sun,
+    Mercury: spr_mercury,
+    Venus: spr_venus,
+    Earth: spr_earth2,
+    Mars: spr_mars,
+    Jupiter: spr_jupiter,
+    Saturn: spr_saturn,
+    Uranus: spr_uranus,
+    Neptune: spr_neptune
 };
