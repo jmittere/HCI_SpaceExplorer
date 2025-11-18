@@ -19,6 +19,7 @@ draw_rectangle(box_x, box_y, box_x + box_w, box_y + box_h, false);
 draw_set_alpha(1);
 draw_set_color(c_white);
 draw_set_font(DisplayFont);
-var welcome_msg = "Welcome to " + global.game.location + "! This is a cool planet and is in between the Earth and the sun.";
+var welcome_msg = "Welcome to " + global.game.location + "! This planet is one of the ice giants."
++ " I am getting cold just being close to this planet!";
 
 draw_text_ext(box_x + 20, box_y + 20, welcome_msg, -1, box_w - 15);

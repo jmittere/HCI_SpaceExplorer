@@ -7,8 +7,8 @@ var box_w = gui_w * 0.20;
 var box_h = gui_h * 0.150;
 
 // Top-right corner position
-var box_x = gui_w - box_w - 210; // 100px padding from right edge
-var box_y = 175; // 20px from top
+var box_x = gui_w - box_w - 125; // 100px padding from right edge
+var box_y = 210; // 20px from top
 
 // Draw box background
 draw_set_color(c_black);
