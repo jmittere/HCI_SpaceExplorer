@@ -19,6 +19,8 @@ draw_rectangle(box_x, box_y, box_x + box_w, box_y + box_h, false);
 draw_set_alpha(1);
 draw_set_color(c_white);
 draw_set_font(DisplayFont);
-var welcome_msg = "Welcome to Jupiter. This is the biggest planet in our system. You can even see it without a telescope sometimes!";
 
-draw_text_ext(box_x + 20, box_y + 20, welcome_msg, -1, box_w - 15);
+// Typewriter substring:
+var shown_text = string_copy(msg, 1, typed_index);
+
+draw_text_ext(box_x + 20, box_y + 20, shown_text, -1, box_w - 15);

@@ -69,7 +69,7 @@ global.planet_info = {
     Saturn: {
         has_rings: true,
         moons: 83,
-        surface: "Gas giant with icy rings"
+        surface: "Gas giant with rings"
     },
     Uranus: {
         has_rings: true,

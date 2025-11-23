@@ -1,8 +1,8 @@
-var font_color = c_white;  // Text color
+var font_color = c_black;  // Text color
 
 
 // Draw the text centered on top
-draw_set_font(DisplayFont);
+draw_set_font(AddToSIRRFont);
 draw_set_color(font_color);
 
 var text_w = string_width(button_text);
