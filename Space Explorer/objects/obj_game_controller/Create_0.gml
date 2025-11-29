@@ -102,8 +102,7 @@ global.planet_descriptions = {
     Venus: "Venus is the second planet from the Sun. It is the hottest planet in our solar system and is predominantly made of clouds. The surface is much too hot for humans to visit.",
     Earth: "Earth is our home planet. Despite all of humanity living on land, the Earth is primarily water! This is why scientists call Earth the pale blue dot." 
 	+ " Out of all the planets in our solar system, Earth is the only planet with organic life such as plants and animals.",
-    Mars: "Mars is the most similar to Earth. Although it has a dusty, desert-like surface, scientists have sent rovers to Mars to explore the rusty looking planet."
-	 + " These rovers found water on Mars which makes it another planet capable of sustaining organic life.",
+    Mars: "Mars is the most similar to Earth. Although it has a dusty, desert-like surface, scientists have sent rovers to Mars to explore the rusty looking planet.",
     Jupiter: "Jupiter is the largest planet. If Jupiter was a hollow shell, 1,000 Earths could fit inside of it."
 	+  " Despite the planet Saturn being known for having rings, Jupiter also has faint pale rings and many moons compared to our one moon on Earth.",
     Saturn: "Saturn is a very large planet known for its pronounced rings. The rings of Saturn are made of small chunks of ice and rock coated with other materials like space dust. "

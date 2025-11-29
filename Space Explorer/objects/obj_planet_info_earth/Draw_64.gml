@@ -10,10 +10,6 @@ var box_h = gui_h * 0.12;
 var box_x = (gui_w - box_w) * 0.5;
 var box_y = gui_h - box_h - 50; // 40px padding from bottom
 
-// Get the current planet name and corresponding description
-var curr_planet = string(global.game.location);
-var msg = variable_struct_get(global.planet_descriptions, curr_planet);
-
 // Draw box background
 draw_set_color(c_black);
 draw_set_alpha(0.6);
@@ -24,5 +20,9 @@ draw_set_alpha(1);
 draw_set_color(c_white);
 draw_set_font(DisplayFont);
 
-
-draw_text_ext(box_x + 20, box_y + 20, msg, -1, box_w - 30);
+// Only draw after delay passed
+if (delay_timer >= delay_time)
+{
+    var msg_partial = string_copy(full_msg, 1, typed_index);
+    draw_text_ext(box_x + 20, box_y + 20, msg_partial, -1, box_w - 30);
+}
