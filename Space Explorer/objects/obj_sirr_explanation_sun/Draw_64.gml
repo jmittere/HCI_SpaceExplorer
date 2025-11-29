@@ -19,8 +19,7 @@ draw_rectangle(box_x, box_y, box_x + box_w, box_y + box_h, false);
 draw_set_alpha(1);
 draw_set_color(c_white);
 draw_set_font(DisplayFont);
+var welcome_msg = "Welcome to the " + global.game.location + "! The Sun is a star that warms our solar system."
++ " I am getting hot being this close. Add the Sun to my database so we can get away from all this heat!";
 
-// Typewriter substring:
-var shown_text = string_copy(msg, 1, typed_index);
-
-draw_text_ext(box_x + 20, box_y + 20, shown_text, -1, box_w - 15);
+draw_text_ext(box_x + 20, box_y + 20, welcome_msg, -1, box_w - 15);

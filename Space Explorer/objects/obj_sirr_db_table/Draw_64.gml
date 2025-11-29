@@ -4,8 +4,8 @@ var icon_size = 32;
 var planet_names = variable_struct_get_names(global.visited);
 
 var row_x = 225;
-var row_y = 100;
-var row_h = 65;
+var row_y = 150;
+var row_h = 48;
 
 //column x positions
 var col_spr		= row_x;
@@ -14,6 +14,7 @@ var col_visited = row_x + 150;
 var col_rings   = row_x + 250;
 var col_moons   = row_x + 330;
 var col_surface = row_x + 400;
+
 
 draw_set_font(SIRRDBHeaderFont)
 
@@ -25,9 +26,9 @@ draw_text(col_rings,   row_y, "Rings");
 draw_text(col_moons,   row_y, "Moons");
 draw_text(col_surface, row_y, "Surface");
 
-row_y += (row_h/2);
-draw_line(row_x, row_y, row_x + 725, row_y);
-row_y += (row_h/2);
+row_y += row_h;
+draw_line(row_x, row_y, row_x + 700, row_y);
+row_y += row_h;
 
 draw_set_font(SIRRDBColumnFont)
 // Rows
@@ -60,8 +61,7 @@ for (var i = 0; i < array_length(planet_names); i++)
 	    var icon_y = row_y + row_h/2 - (spr_h * scale)/2;
 
 	    draw_sprite_ext(planetspr, 0, icon_x, icon_y-15, scale, scale, 0, c_white, 1);
-		
-		}
+	}
 	
     //draw columns
     draw_text(col_name,    row_y, pname);
