@@ -38,6 +38,19 @@ global.visited = {
 	Neptune: false
 }
 
+//Used for tracking of SIRR database, separate from mission progress
+global.sirr_visited = {
+	Sun: false,
+	Mercury: false,
+	Venus: false,
+	Earth: false, 
+	Mars: false,
+	Jupiter: false,
+	Saturn: false,
+	Uranus: false,
+	Neptune: false
+};
+
 global.planet_info = {
     Sun: {
         has_rings: false,
