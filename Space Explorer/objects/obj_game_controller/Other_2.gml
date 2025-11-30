@@ -26,8 +26,13 @@ if (current_planet_name != undefined && variable_struct_exists(global.visited, c
         global.mission_set_completed("visited_ice_giants");
     }
 
+    // Mission: Visit Inner Planets (Mercury, Venus, Mars)
+    if (global.visited.Mercury && global.visited.Venus && global.visited.Mars && global.mission_is_unlocked("visited_inner_planets")) {
+        global.mission_set_completed("visited_inner_planets");
+    }
+
     // Mission: Visit all planets
-    if (global.visited.Sun && global.visited.Mercury && global.visited.Venus && global.visited.Mars && global.visited.Jupiter && global.visited.Saturn && global.visited.Uranus && global.visited.Neptune && global.mission_is_unlocked("visited_all_planets")) {
+    if (global.visited.Sun && global.visited.Mercury && global.visited.Venus && global.visited.Earth && global.visited.Mars && global.visited.Jupiter && global.visited.Saturn && global.visited.Uranus && global.visited.Neptune && global.mission_is_unlocked("visited_all_planets")) {
         global.mission_set_completed("visited_all_planets");
     }
     
