@@ -39,8 +39,8 @@ for (var i = 0; i < array_length(planet_names); i++)
 	// Get planet sprites
 	var planetspr = variable_struct_get(global.planet_sprites, pname);
 	
-	//gets whether planets have been visited from obj_game_controller
-    var visited = variable_struct_get(global.visited, pname);
+	//gets whether planets have been visited for SIRR from obj_game_controller
+    var visited = variable_struct_get(global.sirr_visited, pname);
 
     //gets static planet info for each planet that player has visited
     var info = variable_struct_get(global.planet_info, pname);
