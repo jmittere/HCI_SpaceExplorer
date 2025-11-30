@@ -1,7 +1,7 @@
 /// Draw GUI
 var icon_size = 32;
 
-var planet_names = variable_struct_get_names(global.visited);
+var planet_names = variable_struct_get_names(global.sirr_visited);
 
 var row_x = 225;
 var row_y = 150;
