@@ -355,20 +355,8 @@
         },
         {
             "id": {
-                "name": "obj_sirr_explanation_close_to_sun",
-                "path": "objects/obj_sirr_explanation_close_to_sun/obj_sirr_explanation_close_to_sun.yy"
-            }
-        },
-        {
-            "id": {
                 "name": "obj_sirr_explanation_earth",
                 "path": "objects/obj_sirr_explanation_earth/obj_sirr_explanation_earth.yy"
-            }
-        },
-        {
-            "id": {
-                "name": "obj_sirr_explanation_ice_giant",
-                "path": "objects/obj_sirr_explanation_ice_giant/obj_sirr_explanation_ice_giant.yy"
             }
         },
         {
