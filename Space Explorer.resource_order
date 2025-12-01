@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings":[
+    {"name":"buttons","order":4,"path":"folders/Objects/buttons.yy",},
+    {"name":"celestialObjects","order":5,"path":"folders/Objects/celestialObjects.yy",},
+    {"name":"SIRR","order":6,"path":"folders/Objects/SIRR.yy",},
+    {"name":"badges","order":1,"path":"folders/Sprites/badges.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_game_controller","order":3,"path":"objects/obj_game_controller/obj_game_controller.yy",},
+    {"name":"obj_mission_controller","order":9,"path":"objects/obj_mission_controller/obj_mission_controller.yy",},
+    {"name":"obj_mission_display","order":7,"path":"objects/obj_mission_display/obj_mission_display.yy",},
+    {"name":"obj_notification","order":10,"path":"objects/obj_notification/obj_notification.yy",},
+    {"name":"obj_space_bg","order":1,"path":"objects/obj_space_bg/obj_space_bg.yy",},
+    {"name":"obj_startup","order":2,"path":"objects/obj_startup/obj_startup.yy",},
+    {"name":"spr_badge_ice_giants","order":1,"path":"sprites/spr_badge_ice_giants/spr_badge_ice_giants.yy",},
+    {"name":"spr_badge_inner_circle","order":2,"path":"sprites/spr_badge_inner_circle/spr_badge_inner_circle.yy",},
+    {"name":"spr_badge_red_planet","order":3,"path":"sprites/spr_badge_red_planet/spr_badge_red_planet.yy",},
+    {"name":"spr_badge_voyager","order":4,"path":"sprites/spr_badge_voyager/spr_badge_voyager.yy",},
+    {"name":"spr_mission_complete_medal","order":5,"path":"sprites/spr_mission_complete_medal/spr_mission_complete_medal.yy",},
+    {"name":"spr_my_cool_sun_badge","order":6,"path":"sprites/spr_my_cool_sun_badge/spr_my_cool_sun_badge.yy",},
+  ],
+}

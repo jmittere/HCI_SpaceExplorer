@@ -1,3 +1,2 @@
-### Space Explorer Game 
-
-This is the repo for the Space Explorer game for CSCI 6561_80.
+# HCI_SpaceExplorer
+Project Repository for Space Explorer App
