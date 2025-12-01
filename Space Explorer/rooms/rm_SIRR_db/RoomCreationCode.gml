@@ -1,1 +1,0 @@
-global.game.location = "SIRR"
