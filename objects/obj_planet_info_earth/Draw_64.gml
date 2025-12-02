@@ -4,7 +4,7 @@ var gui_h = display_get_gui_height();
 
 //Background Box dimensions that text sits in
 var box_w = gui_w * 0.30;
-var box_h = gui_h * 0.12;
+var box_h = gui_h * 0.15;
 
 // Bottom-center positioning for the text box
 var box_x = (gui_w - box_w) * 0.5;

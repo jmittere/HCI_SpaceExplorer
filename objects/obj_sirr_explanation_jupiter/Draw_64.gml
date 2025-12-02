@@ -4,7 +4,7 @@ var gui_h = display_get_gui_height();
 
 // Define box dimensions
 var box_w = gui_w * 0.20;
-var box_h = gui_h * 0.150;
+var box_h = gui_h * 0.125;
 
 // Top-right corner position
 var box_x = gui_w - box_w - 125; // 100px padding from right edge

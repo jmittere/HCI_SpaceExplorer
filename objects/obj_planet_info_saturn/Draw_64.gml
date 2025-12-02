@@ -4,11 +4,11 @@ var gui_h = display_get_gui_height();
 
 //Background Box dimensions that text sits in
 var box_w = gui_w * 0.30;
-var box_h = gui_h * 0.12;
+var box_h = gui_h * 0.18;
 
 // Bottom-center positioning for the text box
 var box_x = (gui_w - box_w) * 0.5;
-var box_y = gui_h - box_h - 50; // 40px padding from bottom
+var box_y = gui_h - box_h - 25; // 40px padding from bottom
 
 // Draw box background
 draw_set_color(c_black);
