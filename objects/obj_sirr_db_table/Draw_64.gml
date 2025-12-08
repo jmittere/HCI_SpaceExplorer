@@ -7,11 +7,12 @@ var row_h = 65;
 
 //column x positions
 var col_spr		= row_x;
-var col_name    = row_x + 50;
-var col_visited = row_x + 150;
-var col_rings   = row_x + 250;
-var col_moons   = row_x + 330;
+var col_name    = row_x + 40;
+var col_visited = row_x + 130;
+var col_rings   = row_x + 215;
+var col_moons   = row_x + 300;
 var col_surface = row_x + 400;
+var col_button = row_x + 580;
 
 draw_set_font(SIRRDBHeaderFont)
 
@@ -22,6 +23,7 @@ draw_text(col_visited, row_y, "Visited");
 draw_text(col_rings,   row_y, "Rings");
 draw_text(col_moons,   row_y, "Moons");
 draw_text(col_surface, row_y, "Surface");
+draw_text(col_button, row_y, "Unvisit Buttons");
 
 row_y += (row_h/2);
 draw_line(row_x, row_y, row_x + 725, row_y);
